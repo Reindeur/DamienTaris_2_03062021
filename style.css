@@ -1,0 +1,216 @@
+html 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+   width: auto;
+   height: auto;
+   margin-top: 25px; 
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065fc;
+}
+
+#map
+{
+    width: 11px;
+}
+
+/* Section */
+
+#recherche
+{
+    background-color:#0065FC;
+    color: white;
+}
+
+/* Filtre */
+
+#filtre
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+h2
+{
+    margin-right: 50px;
+}
+
+p
+{
+    margin-right: 50px;
+}
+
+
+#billet
+{
+    width: 20px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+#personne
+{
+    width: 10px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+#coeur
+{
+    width: 20px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+#chien
+{
+    width: 20px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+#info
+{
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Hébergements */
+
+.verticale
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.logement
+{
+    width: 170px;
+    margin-bottom: -20px;
+}
+.étoile
+{
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.texte
+{
+    margin-left: 30px;
+}
+
+.nuit
+{
+    margin-top: -20px;
+}
+
+/* Aside */
+
+#graphique
+{
+    width: 30px;
+    margin-left: 30px;
+
+}
+
+#section
+{
+    display: flex;
+
+}
+
+aside
+{
+    margin-left: 50px;
+}
+
+.populaire
+{
+    height: 100px;
+}
+
+/* Activité */
+
+.Marseille
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.activité1
+{
+    position: relative;
+    width: 717px; 
+    margin-bottom: -20px;
+}
+.activité2
+{
+    position: relative;
+    width: 200px;
+    margin-bottom: -20px;
+}
+
+
+
+/* Footer */
+
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+}
+
+.assistance
+{
+    margin-right: 250px;
+}
+
+.fonction
+{
+    margin-bottom: -12px;
+}
