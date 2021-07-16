@@ -9,11 +9,31 @@ header
     justify-content: space-between;
 }
 
+#h1
+{
+    margin-left: -5px;
+}
+
+#p
+{
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
 #logo
 {
    width: auto;
    height: auto;
    margin-top: 25px; 
+   margin-left: -13px;
+}
+
+body
+{
+    margin: 0;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Navigation */
@@ -36,24 +56,43 @@ nav a
     color: #181818;
     padding-bottom: 5px;
     text-decoration: none;
+    padding: 10px;
 }
 
 nav a:hover
 {
     color: #0065fc;
+    border-top: 3px solid #0065FC;
 }
 
-#map
+.fa-map-marker-alt
 {
-    width: 11px;
+    width: 12px;
+    margin-right: -5px;
+    padding: 9.5px 20px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: #F2F2F2 2px solid;
+    vertical-align: middle;
 }
 
 /* Section */
+
+#bouton
+{
+    padding: 10px 24px;
+    margin-right: -5px;
+    border: #f2f2f2 2px solid;
+}
 
 #recherche
 {
     background-color:#0065FC;
     color: white;
+    padding: 9px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;    
 }
 
 /* Filtre */
@@ -64,88 +103,180 @@ nav a:hover
     flex-direction: row;
     align-items:center;
     justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 h2
 {
+    margin-right: 60px;
+}
+
+.signe
+{
+    border: #d9d9d9 2px solid;
+    border-radius: 20px;
     margin-right: 50px;
+    padding-left: 10px;
+    cursor: pointer;
+    
 }
 
-p
+.ecriture
 {
-    margin-right: 50px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-
-#billet
+.fa-money-bill-wave
 {
+    color:#0065FC;
     width: 20px;
     margin-right: 10px;
     float: left;
     vertical-align: middle;
+    background-color: #deebff;
+    border-radius: 30px;
+    padding: 12px;
+    margin-top: -11px;
+    margin-bottom: -10px;
+    margin-left: -18px;
 }
 
-#personne
+.fa-child
 {
-    width: 10px;
+    color:#0065FC;
+    width: 15px;
     margin-right: 10px;
     float: left;
     vertical-align: middle;
+    background-color: #deebff;
+    border-radius: 30px;
+    padding: 12px;
+    margin-top: -11px;
+    margin-bottom: -10px;
+    margin-left: -18px;
 }
 
-#coeur
+.fa-heart
 {
+    color:#0065FC;
+    width: 15px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+    background-color: #deebff;
+    border-radius: 30px;
+    padding: 12px;
+    margin-top: -11px;
+    margin-bottom: -10px;
+    margin-left: -18px;
+}
+
+.fa-dog
+{
+    color:#0065FC;
     width: 20px;
     margin-right: 10px;
     float: left;
     vertical-align: middle;
+    background-color: #deebff;
+    border-radius: 30px;
+    padding: 12px;
+    margin-top: -11px;
+    margin-bottom: -10px;
+    margin-left: -18px;
 }
 
-#chien
+.fa-info
 {
-    width: 20px;
-    margin-right: 10px;
+    color:#0065FC;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: -6px;
     float: left;
-    vertical-align: middle;
+    margin-right: 10px;
+    border: gray 1px solid;
+    border-radius: 30px;
+    height: 5px;
+    width: 5px;
 }
 
 #info
 {
-    width: 20px;
-    float: left;
-    margin-right: 10px;
-    vertical-align: middle;
+    margin-bottom: 30px;
 }
 
 /* Hébergements */
+
+#hébergement
+{
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.aff
+{
+    margin-left: 10px;
+}
 
 .verticale
 {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
 }
 
 .logement
 {
-    width: 170px;
+    width: 250px;
+    height: 140px;
     margin-bottom: -20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.étoile
+
+#etoile
 {
-    width: 100px;
+    color: gray;
+}
+
+.fa-star
+{
+    color:#0065FC;
     margin-bottom: 30px;
+}
+
+.jour
+{
+    margin-left: 10px;
+    margin-bottom: -20px;
     margin-top: -10px;
+}
+
+.matin
+{
+    margin-left: 10px;
 }
 
 .texte
 {
-    margin-left: 30px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    cursor: pointer;
 }
 
 .nuit
 {
     margin-top: -20px;
+    margin-left: 10px;
 }
 
 /* Aside */
@@ -153,27 +284,74 @@ p
 #graphique
 {
     width: 30px;
-    margin-left: 30px;
-
 }
 
-#section
+#grap
 {
     display: flex;
+    justify-content: space-between;
+}
 
+.section
+{
+    display: flex;
 }
 
 aside
 {
     margin-left: 50px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.plus
+{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    margin-right: 80px;
+    cursor: pointer;
 }
 
 .populaire
 {
-    height: 100px;
+    height: 140px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.haut
+{
+    margin-top: -15px;
+}
+
+.milieu
+{
+    margin-left: 10px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.basse
+{
+    margin-left: 10px;
+    margin-bottom: -20px;
+    margin-top: 50px;
 }
 
 /* Activité */
+
+#act
+{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
 
 .Marseille
 {
@@ -181,19 +359,66 @@ aside
     flex-direction: row;
 }
 
+.photo
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.photo2
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 60px; 
+    cursor: pointer; 
+}
+
 .activité1
 {
     position: relative;
-    width: 717px; 
+    width: 350px;
+    height: 474px; 
     margin-bottom: -20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .activité2
 {
     position: relative;
-    width: 200px;
+    width: 350px;
+    height: 200px;
     margin-bottom: -20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
+.activité3
+{
+    position: relative;
+ width: 350px;
+ height: 150px;
+ margin-bottom: -20px;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px; 
+}
+
+.nom
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
 
 
 /* Footer */
@@ -203,11 +428,9 @@ aside
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
-}
-
-.assistance
-{
-    margin-right: 250px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    justify-content: space-around;
 }
 
 .fonction
