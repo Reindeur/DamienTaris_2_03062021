@@ -192,7 +192,7 @@ h2
 .fa-info
 {
     color:#0065FC;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
