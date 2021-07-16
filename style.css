@@ -92,7 +92,8 @@ nav a:hover
     color: white;
     padding: 9px 20px;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;    
+    border-top-right-radius: 10px; 
+    cursor: pointer;   
 }
 
 /* Filtre */
