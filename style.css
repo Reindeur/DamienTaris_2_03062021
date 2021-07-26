@@ -8,18 +8,22 @@ html
 header
 {
     display: flex;
-    justify-content: space-between;
 }
+
 .nav
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 60%;
 }
 
 .subscrite
 {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 25px; 
 }
 
 #h1
@@ -476,6 +480,12 @@ aside
 @media all and (max-width: 1024px)
 {   
 
+    header
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .section
     {
         flex-direction: column;
@@ -489,28 +499,36 @@ aside
         text-align: center;    
     }
 
+    nav a:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        border-top: none; 
+    }
+
     .nav
     {
         display: flex;
         flex-direction: column;
-    }
-
-    .sorti
-    {
-        display: flex;
         order: 3;
+        margin: auto;
     }
 
     .subscrite
     {
         display: flex;
         order: 2;
+        margin-left: 200px;
     }
 
     #logo
     {
         display: flex;
         order: 1;
+    }
+
+    .logement
+    {
+        height: 110px;
     }
 
     .photo3
@@ -527,12 +545,17 @@ aside
 
     .activité1
     {
-        height: 200px;
+        height: 170px;
+    }
+
+    .activité2
+    {
+        height: 170px;
     }
 
     .activité3
     {
-        height: 200px;
+        height: 170px;
     }
 
     #test
@@ -579,7 +602,7 @@ aside
     #footer
     {
         flex-direction: column;
-        
+        margin-top: 20px;
 
     }
 
