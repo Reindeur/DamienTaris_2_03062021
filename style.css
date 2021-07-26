@@ -495,14 +495,13 @@ aside
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;    
+        margin-left: 10px;  
     }
 
     nav a:hover
     {
-        border-bottom: 3px solid #0065FC;
-        border-top: none; 
+        border-top: none;
+        border-bottom: 3px solid #0065FC; 
     }
 
     .nav
@@ -517,7 +516,10 @@ aside
     {
         display: flex;
         order: 2;
-        margin-left: 200px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 10px;
     }
 
     #logo
@@ -575,12 +577,20 @@ aside
         order: -1;
         margin: auto;
         margin-bottom: 30px;
+        border-radius: 0;
+    }
+
+    .plus
+    {
+        margin: auto;
+        margin-top: 10px;
     }
 
     #hébergement
     {
         flex-direction: column;
         background-color: white;
+        margin-left: 40px;
     }
 
     .verticale
@@ -593,10 +603,16 @@ aside
         box-shadow: gray 0px 0px 10px 0px;
     }
 
+    #act
+    {
+        margin-left: 30px;
+    }
+
     .Marseille
     {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
+        margin-left: 20px; 
     }
 
     #footer
