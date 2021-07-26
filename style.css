@@ -10,6 +10,17 @@ header
     display: flex;
     justify-content: space-between;
 }
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscrite
+{
+    margin-top: 20px;
+}
 
 #h1
 {
@@ -27,7 +38,6 @@ header
    width: auto;
    height: auto;
    margin-top: 25px; 
-   margin-left: -13px;
 }
 
 body
@@ -253,6 +263,7 @@ h2
     margin-bottom: -20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 #etoile
@@ -477,16 +488,51 @@ aside
         align-items: center;
         text-align: center;    
     }
-    
+
+    .nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sorti
+    {
+        display: flex;
+        order: 3;
+    }
+
+    .subscrite
+    {
+        display: flex;
+        order: 2;
+    }
+
+    #logo
+    {
+        display: flex;
+        order: 1;
+    }
 
     .photo3
     {
         margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .photo2
     {
         margin-bottom: 30px;
+    }
+
+    .activité1
+    {
+        height: 200px;
+    }
+
+    .activité3
+    {
+        height: 200px;
     }
 
     #test
