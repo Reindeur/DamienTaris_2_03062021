@@ -539,6 +539,13 @@ aside
         display: none;
     }
 
+    .type
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .fa-search
     {
         display: inline;
@@ -555,6 +562,22 @@ aside
     .logement
     {
         height: 110px;
+    }
+
+    .texte
+    {
+       margin-right: auto; 
+    }
+
+    .aff
+    {
+        margin-left: 20px;
+    }
+
+    .signe
+    {
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .photo3
@@ -587,6 +610,7 @@ aside
     #test
     {
         flex-direction: column;
+        margin-left: 15px;
     }
 
     #filtre
@@ -614,7 +638,6 @@ aside
     {
         flex-direction: column;
         background-color: white;
-        margin-left: 40px;
     }
 
     .verticale
