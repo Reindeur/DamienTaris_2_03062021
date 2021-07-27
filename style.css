@@ -44,6 +44,11 @@ header
    margin-top: 25px; 
 }
 
+.fa-search
+{
+    display: none;
+}
+
 body
 {
     margin: 0;
@@ -527,6 +532,24 @@ aside
     {
         display: flex;
         order: 1;
+    }
+
+    #recherche
+    {
+        display: none;
+    }
+
+    .fa-search
+    {
+        display: inline;
+        background-color:#0065FC;
+        color: white;
+        padding: 11.3px;
+        border-radius: 10px;
+        margin-left: -20px;
+        padding-bottom: 12px;
+        cursor: pointer;  
+        border: none; 
     }
 
     .logement
