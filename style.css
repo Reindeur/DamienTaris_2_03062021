@@ -80,6 +80,17 @@ nav a
     padding: 10px;
 }
 
+a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+.subscrite
+{
+    font-size: 20px;
+}
+
 nav a:hover
 {
     color: #0065fc;
@@ -514,7 +525,7 @@ aside
         display: flex;
         flex-direction: column;
         order: 3;
-        margin: auto;
+        margin: 0;
     }
 
     .subscrite
@@ -526,6 +537,7 @@ aside
         right: 0;
         margin-right: 10px;
         font-size: 20px;
+        
     }
 
     #logo
