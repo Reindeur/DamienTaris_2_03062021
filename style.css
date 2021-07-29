@@ -613,6 +613,12 @@ aside
         margin-left: 20px;
     }
 
+    div#info 
+    {
+        align-items: baseline;
+    }
+    
+
     .photo3
     {
         margin-top: 30px;
