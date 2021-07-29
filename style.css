@@ -322,6 +322,7 @@ h2
     margin-bottom: 40px;
     margin-right: 40px;
     cursor: pointer;
+    width: 33%;
 }
 
 .nuit
@@ -592,7 +593,8 @@ aside
 
     .texte
     {
-       margin-right: auto; 
+       width: inherit;
+       margin-right: 0; 
     }
 
     .aff
@@ -608,20 +610,20 @@ aside
 
     .fa-info
     {
-        margin-bottom: 20px;
         margin-left: 20px;
     }
 
     .photo3
     {
         margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 20px;
     }
 
     .photo2
     {
         margin-bottom: 30px;
+        margin-right: 0;
     }
 
     .activité1
@@ -664,7 +666,6 @@ aside
 
     .plus
     {
-        margin: auto;
         margin-top: 10px;
     }
 
@@ -693,7 +694,6 @@ aside
     .Marseille
     {
         flex-direction: column;
-        align-items: center;
         margin-left: 20px; 
     }
 
